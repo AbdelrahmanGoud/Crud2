@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <link rel="stylesheet" href="css/all.min.css">
+         <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+          <div class="container pt-3">
+          <h1 >Bookmarker</h1> 
+          <hr>
+          <div class="form-progect text-center my-5 py-4">
+                    <h2>Bookmark your favorite sites</h2>
+                    <div class="form-group mx-5">
+                              <label class="text-center ">Site Name</label>
+                              <input type="text" id="name" class="form-control" placeholder="Bookmarker Name">
+                    </div>
+                    <div class="form-group mx-5">
+                              <label class="text-center ">Site URL</label>
+                              <input type="text" id="lname" class="form-control" placeholder="Websit URL">
+                    </div>
+                    <button id="ADDbot" disabled onclick="tackData()" class="btn btn-primary">Submit</button>
+                    
+
+          </div> 
+<input type="text" id="forsearch" onkeyup="search(this.value)" class="form-control mb-3" placeholder="Search by Name">
+<div class="output">
+          <table class="table">
+                    <thead>
+                   <tr>
+                             
+                   </tr>           
+                    </thead>
+                    <tbody id="addtable">
+
+                    </tbody>
+          </table>
+</div>
+
+<hr class="mt-5">
+<footer >
+<p>© 2019 Bookmarker Inc.</p>
+</footer>
+
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <script src="js/jquery-3.5.1.slim.min.js"></script>
+          <script src="js/popper.min.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/login.js"></script>
+</body>
+</html>
